@@ -5,13 +5,6 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-100 to-white flex flex-col items-center justify-center p-10">
       <div className="max-w-2xl text-center bg-white p-8 rounded-2xl shadow-xl">
-        <Image
-          src="/images/finance-illustration.png" // letakkan gambar ini di /public/images
-          alt="Ilustrasi Keuangan"
-          width={250}
-          height={250}
-          className="mx-auto mb-6"
-        />
         <h1 className="text-4xl font-extrabold text-blue-700 mb-4">
           Selamat Datang di Aplikasi Keuangan
         </h1>
